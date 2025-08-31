@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import myImage from './image/Rectangle 57.png'
-import myImage2 from './image/Rectangle 56.png'
-import myImage3 from './image/Rectangle 47.png'
+
 
 const posts = [
   {
     id: 1,
     title: "New modern sofa is here",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus libero, mauris vehicula ut ligula molestie placerat eleifend a mauris. Nullam quis ante, Fusce dui tellus, cursus ut, iaculis ut, volutpat nec, mauris.",
-    image: myImage,
+    image: './image/Rectangle 57.png',
     date: "May 15, 2023",
     author: "Interior design",
     type: "sofa",
@@ -18,7 +16,7 @@ const posts = [
     id: 2,
     title: "New modern sofa is here",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus libero, mauris vehicula ut ligula molestie placerat eleifend a mauris. Nullam quis ante, Fusce dui tellus, cursus ut, iaculis ut, volutpat nec, mauris.",
-    image: myImage2,
+    image:'./image/Rectangle 56.png' ,
     date: "May 15, 2023",  
     author: "Interior design",
     type: "sofa",
@@ -27,7 +25,7 @@ const posts = [
     id: 3,
     title: "New modern sofa is here",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus libero, mauris vehicula ut ligula molestie placerat eleifend a mauris. Nullam quis ante, Fusce dui tellus, cursus ut, iaculis ut, volutpat nec, mauris.",
-    image: myImage3,
+    image:'./image/Rectangle 47.png' ,
     date: "May 15, 2023",
     author: "Interior design",
     type: "sofa",
