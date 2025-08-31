@@ -59,7 +59,7 @@ const CommentSection = ({ postId = 'default' }) => {
 
   const fetchComments = async () => {
     try {
-      const response = await fetch(`http://localhost:5001/api/comments?postId=${postId}`);
+      const response = await fetch(`https://node-tutorial-3h9y.onrender.com/api/comments?postId=${postId}`);
       if (response.ok) {
         const data = await response.json();
         setComments(data);
@@ -97,7 +97,7 @@ const CommentSection = ({ postId = 'default' }) => {
     };
 
     try {
-      const response = await fetch('http://localhost:5001/api/comments', {
+      const response = await fetch('https://node-tutorial-3h9y.onrender.com/api/comments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
